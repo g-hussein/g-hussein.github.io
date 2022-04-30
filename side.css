@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgray;
+    /* background-image: url("image/pexels-eva-elijas-6568741.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+/* this styling was used to center all the conter in the body */
+.body {
+    margin: auto;
+    width: 500px;
+}
+/* styling the nav bar/menu bar and the dropdown menu */
+nav {
+    background-color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a, .dropdownbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropdownbtn {
+    background-color: orange;
+}
+li .dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+    min-width: 200px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+}
+.dropdown-content a:hover {
+    background-color: lightgray;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* the header styling begings here */
+header {
+    margin-top: 100px;
+}
+header h1 {
+    margin-left: 140px;
+    color:black;
+    margin-bottom: 50px;
+    font-size: 3em;
+}
+header img {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);;
+    margin-bottom: 30px;
+}
+header h1:hover {
+    color: white;
+}
+/* the content styling begins here */
+.content {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.content h2 {
+    color: black;
+}
+.content h2:hover {
+    color:white;
+}
+.content p {
+    line-height: 1.4em;
+}
+/* the footer styling starts from here */
+.day {
+    background-color: silver;
+    height: 100px;
+    padding-top: 50px;
+}
+.day1 {
+    background-color: gray;
+    height: 50px;
+    padding-top: 25px;
+}
+.day,.day1 {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
